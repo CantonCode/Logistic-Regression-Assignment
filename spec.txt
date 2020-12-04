@@ -1,0 +1,27 @@
+Assignment 2
+Perform Logistic Regression using Convolutional Neural Networks
+
+The dataset is split between two types of files map files and result files
+
+Mapfiles are 2D matrix files saved as CSV’s, you should use the different values as the channels for the CNN. Each cell corresponds to the following data
+
+Empty=0,
+Wall=1,
+Floor=2,
+Spawn1=8,
+Spawn2=9,
+HealthPack=10
+
+
+Result files are the results of 100 games and the percent chance that Player 1 or 2 wins with that map.
+
+The task is to predict the probability of Team 1 winning given a map. I recommend using Data Augmentation techniques to create artificial data such as mirroring the data and pixel offsets.
+
+Marking Scheme
+Data Input 25%
+Model Definition 25%
+Training 25%
+Data Augmentation 25%
+
+Due Date
+Friday Week 9: 27/11/2020
